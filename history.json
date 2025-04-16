@@ -1,0 +1,772 @@
+[
+    {
+        "image": "20211231_174942.jpg",
+        "result": "Good Tea Leaf",
+        "date": "2025-04-08 11:52:40"
+    },
+    {
+        "image": "tb2.webp",
+        "result": "Not Tea Leaf",
+        "date": "2025-04-07 22:00:38"
+    },
+    {
+        "image": "bt1.webp",
+        "result": "Bad Tea Leaf",
+        "date": "2025-04-07 22:00:31"
+    },
+    {
+        "image": "h1.webp",
+        "result": "Not Tea Leaf",
+        "date": "2025-04-07 21:52:01"
+    },
+    {
+        "image": "p1.jpg",
+        "result": "Not Tea Leaf",
+        "date": "2025-04-07 21:51:56"
+    },
+    {
+        "image": "j1.webp",
+        "result": "Not Tea Leaf",
+        "date": "2025-04-07 21:49:36"
+    },
+    {
+        "image": "l1.webp",
+        "result": "Not Tea Leaf",
+        "date": "2025-04-07 21:48:55"
+    },
+    {
+        "image": "m2.webp",
+        "result": "Not Tea Leaf",
+        "date": "2025-04-07 21:48:22"
+    },
+    {
+        "image": "m1.png",
+        "result": "Not Tea Leaf",
+        "date": "2025-04-07 21:48:17"
+    },
+    {
+        "image": "t8.jpg",
+        "result": "Not Tea Leaf",
+        "date": "2025-04-07 21:44:54"
+    },
+    {
+        "image": "t7.jpg",
+        "result": "Not Tea Leaf",
+        "date": "2025-04-07 21:44:48"
+    },
+    {
+        "image": "t6.webp",
+        "result": "Not Tea Leaf",
+        "date": "2025-04-07 21:41:43"
+    },
+    {
+        "image": "t5.jpg",
+        "result": "Bad Tea Leaf",
+        "date": "2025-04-07 21:41:34"
+    },
+    {
+        "image": "t4.webp",
+        "result": "Not Tea Leaf",
+        "date": "2025-04-07 21:40:26"
+    },
+    {
+        "image": "t2.webp",
+        "result": "Not Tea Leaf",
+        "date": "2025-04-07 21:40:08"
+    },
+    {
+        "image": "0001_0074.JPG",
+        "result": "Not Tea Leaf",
+        "date": "2025-04-07 21:36:05"
+    },
+    {
+        "image": "20220101_091910.jpg",
+        "result": "Good Tea Leaf",
+        "date": "2025-04-07 21:35:51"
+    },
+    {
+        "image": "algal_leaf_in_tea159.jpg",
+        "result": "Bad Tea Leaf",
+        "date": "2025-04-07 21:35:37"
+    },
+    {
+        "image": "ginerger2.webp",
+        "result": "Not Tea Leaf",
+        "date": "2025-04-06 16:02:04"
+    },
+    {
+        "image": "ginger.webp",
+        "result": "Not Tea Leaf",
+        "date": "2025-04-06 16:01:58"
+    },
+    {
+        "image": "20220101_090302.jpg",
+        "result": "Good Tea Leaf",
+        "date": "2025-04-06 14:17:57"
+    },
+    {
+        "image": "20220101_094029.jpg",
+        "result": "Good Tea Leaf",
+        "date": "2025-04-06 14:17:27"
+    },
+    {
+        "image": "20220101_093854.jpg",
+        "result": "Good Tea Leaf",
+        "date": "2025-04-06 14:17:08"
+    },
+    {
+        "image": "3-Figure2-1.png",
+        "result": "Bad Tea Leaf",
+        "date": "2025-04-06 14:13:44"
+    },
+    {
+        "image": "mango.webp",
+        "result": "Not Tea Leaf",
+        "date": "2025-04-05 15:30:56"
+    },
+    {
+        "image": "mango.webp",
+        "result": "Not Tea Leaf",
+        "date": "2025-04-02 13:23:40"
+    },
+    {
+        "image": "3-Figure2-1.png",
+        "result": "Bad Tea Leaf",
+        "date": "2025-04-01 17:40:48"
+    },
+    {
+        "image": "papaya-leaf-500x500.webp",
+        "result": "Not Tea Leaf",
+        "date": "2025-04-01 13:26:02"
+    },
+    {
+        "image": "3-Figure2-1.png",
+        "result": "Bad Tea Leaf",
+        "date": "2025-03-31 21:34:28"
+    },
+    {
+        "image": "green-tea-leaf-spot-disease-260nw-1576798669.webp",
+        "result": "Not Tea Leaf",
+        "date": "2025-03-31 21:34:16"
+    },
+    {
+        "image": "mango.webp",
+        "result": "Not Tea Leaf",
+        "date": "2025-03-29 14:02:34"
+    },
+    {
+        "image": "20211231_174942.jpg",
+        "result": "Good Tea Leaf",
+        "date": "2025-03-29 14:01:36"
+    },
+    {
+        "image": "20220101_090148.jpg",
+        "result": "Good Tea Leaf",
+        "date": "2025-03-29 13:58:25"
+    },
+    {
+        "image": "ss6.webp",
+        "result": "Good Tea Leaf",
+        "date": "2025-03-29 01:21:44"
+    },
+    {
+        "image": "ss5.webp",
+        "result": "Not Tea Leaf",
+        "date": "2025-03-29 01:21:38"
+    },
+    {
+        "image": "ss4.jpg",
+        "result": "Not Tea Leaf",
+        "date": "2025-03-29 01:20:12"
+    },
+    {
+        "image": "ss3.webp",
+        "result": "Bad Tea Leaf",
+        "date": "2025-03-29 01:20:07"
+    },
+    {
+        "image": "ss1.jpg",
+        "result": "Bad Tea Leaf",
+        "date": "2025-03-29 01:19:50"
+    },
+    {
+        "image": "single-green-tea-leaf-isolated-260nw-785514445.webp",
+        "result": "Good Tea Leaf",
+        "date": "2025-03-29 01:16:09"
+    },
+    {
+        "image": "s2.png",
+        "result": "Not Tea Leaf",
+        "date": "2025-03-29 01:16:00"
+    },
+    {
+        "image": "s1.webp",
+        "result": "Not Tea Leaf",
+        "date": "2025-03-29 01:15:54"
+    },
+    {
+        "image": "Screenshot 2025-03-29 011402.png",
+        "result": "Not Tea Leaf",
+        "date": "2025-03-29 01:14:42"
+    },
+    {
+        "image": "mango4.jpg",
+        "result": "Not Tea Leaf",
+        "date": "2025-03-29 01:13:31"
+    },
+    {
+        "image": "Screenshot 2025-03-17 220225.png",
+        "result": "Not Tea Leaf",
+        "date": "2025-03-29 01:13:20"
+    },
+    {
+        "image": "0005_0276.JPG",
+        "result": "Not Tea Leaf",
+        "date": "2025-03-29 01:12:41"
+    },
+    {
+        "image": "IMG_20230816_211648_029.jpg",
+        "result": "Bad Tea Leaf",
+        "date": "2025-03-29 01:12:26"
+    },
+    {
+        "image": "0003_0034.JPG",
+        "result": "Not Tea Leaf",
+        "date": "2025-03-29 01:12:07"
+    },
+    {
+        "image": "20220101_091910.jpg",
+        "result": "Good Tea Leaf",
+        "date": "2025-03-29 01:11:52"
+    },
+    {
+        "image": "3-Figure2-1.png",
+        "result": "Bad Tea Leaf",
+        "date": "2025-03-23 15:15:42"
+    },
+    {
+        "image": "green-tea-leaf-spot-disease-260nw-1576798669.webp",
+        "result": "Not Tea Leaf",
+        "date": "2025-03-23 15:13:44"
+    },
+    {
+        "image": "single-green-tea-leaf-isolated-260nw-785514445.webp",
+        "result": "Good Tea Leaf",
+        "date": "2025-03-23 15:11:42"
+    },
+    {
+        "image": "istockphoto-1097429316-612x612.jpg",
+        "result": "Not Tea Leaf",
+        "date": "2025-03-23 15:11:19"
+    },
+    {
+        "image": "ban1.jpg",
+        "result": "Not Tea Leaf",
+        "date": "2025-03-23 15:09:27"
+    },
+    {
+        "image": "leaf2.jpg",
+        "result": "Bad Tea Leaf",
+        "date": "2025-03-23 15:09:05"
+    },
+    {
+        "image": "green-leaves-bud-stem-camellia-sinensis-tea-plant-two-214007142.webp",
+        "result": "Good Tea Leaf",
+        "date": "2025-03-23 15:08:48"
+    },
+    {
+        "image": "pngtree-freah-tea-leaf-isolated-on-white-background-group-photo-png-image_14363975.png",
+        "result": "Not Tea Leaf",
+        "date": "2025-03-23 15:08:14"
+    },
+    {
+        "image": "green-tea-leaf-closeup-png-cxpgiuja6bjqd5p4-cxpgiuja6bjqd5p4.png",
+        "result": "Not Tea Leaf",
+        "date": "2025-03-23 15:08:05"
+    },
+    {
+        "image": "pngtree-lemon-leaf-isolated-png-file-format-png-image_10119224.png",
+        "result": "Not Tea Leaf",
+        "date": "2025-03-23 15:06:36"
+    },
+    {
+        "image": "360_F_335556402_LQ1QopEtiCNSp27FZ7Ajm07Q8pJufkkq.jpg",
+        "result": "Not Tea Leaf",
+        "date": "2025-03-23 15:06:27"
+    },
+    {
+        "image": "lemon-leaves-isolated-on-a-transparent-background-png.webp",
+        "result": "Not Tea Leaf",
+        "date": "2025-03-23 15:04:03"
+    },
+    {
+        "image": "images.jpg",
+        "result": "Good Tea Leaf",
+        "date": "2025-03-23 15:03:36"
+    },
+    {
+        "image": "custard-apple-leaf-on-white-260nw-2334153271.webp",
+        "result": "Not Tea Leaf",
+        "date": "2025-03-23 15:01:13"
+    },
+    {
+        "image": "istockphoto-486616280-612x612.jpg",
+        "result": "Not Tea Leaf",
+        "date": "2025-03-23 15:01:05"
+    },
+    {
+        "image": "lemon.jpg",
+        "result": "Not Tea Leaf",
+        "date": "2025-03-23 14:52:27"
+    },
+    {
+        "image": "IgntOVEK1UDWxHGjSnqiwXmIw2c5Zii5eqyB1NgS.webp",
+        "result": "Not Tea Leaf",
+        "date": "2025-03-23 14:52:22"
+    },
+    {
+        "image": "green-jackfruit-leaf-isolated-white-background-48692051.webp",
+        "result": "Not Tea Leaf",
+        "date": "2025-03-23 14:52:14"
+    },
+    {
+        "image": "istockphoto-1293045531-612x612.jpg",
+        "result": "Not Tea Leaf",
+        "date": "2025-03-23 14:51:56"
+    },
+    {
+        "image": "leaf-8130274_1280.jpg",
+        "result": "Not Tea Leaf",
+        "date": "2025-03-23 14:51:46"
+    },
+    {
+        "image": "leaf-8130274_1280.jpg",
+        "result": "Not Tea Leaf",
+        "date": "2025-03-23 14:51:44"
+    },
+    {
+        "image": "papaya-leaf-500x500.webp",
+        "result": "Not Tea Leaf",
+        "date": "2025-03-23 14:51:35"
+    },
+    {
+        "image": "360_F_797268097_Nc9c3jhECXAVXv1FvjqwfwLJ0tSjZsiE.jpg",
+        "result": "Not Tea Leaf",
+        "date": "2025-03-23 14:51:26"
+    },
+    {
+        "image": "istockphoto-1397541681-612x612.jpg",
+        "result": "Good Tea Leaf",
+        "date": "2025-03-23 14:50:26"
+    },
+    {
+        "image": "istockphoto-483111632-612x612.jpg",
+        "result": "Not Tea Leaf",
+        "date": "2025-03-23 14:50:19"
+    },
+    {
+        "image": "360_F_830141339_Wnq6J23CMJlluKZ9uo6XkwNyWCgeSZw0.jpg",
+        "result": "Not Tea Leaf",
+        "date": "2025-03-23 14:50:10"
+    },
+    {
+        "image": "360_F_830141339_Wnq6J23CMJlluKZ9uo6XkwNyWCgeSZw0 (1).jpg",
+        "result": "Not Tea Leaf",
+        "date": "2025-03-23 14:50:04"
+    },
+    {
+        "image": "natural-leaf-of-garden-rose-plant-isolated-photo.jpg",
+        "result": "Not Tea Leaf",
+        "date": "2025-03-23 14:49:57"
+    },
+    {
+        "image": "thumb.jpg",
+        "result": "Bad Tea Leaf",
+        "date": "2025-03-23 14:42:46"
+    },
+    {
+        "image": "lemon.jpg",
+        "result": "Not Tea Leaf",
+        "date": "2025-03-23 01:42:09"
+    },
+    {
+        "image": "Screenshot 2025-03-18 190453.png",
+        "result": "Not Tea Leaf",
+        "date": "2025-03-23 01:37:15"
+    },
+    {
+        "image": "Screenshot 2025-03-16 221929.png",
+        "result": "Bad Tea Leaf",
+        "date": "2025-03-23 01:37:00"
+    },
+    {
+        "image": "Screenshot 2025-03-18 154659.png",
+        "result": "Not Tea Leaf",
+        "date": "2025-03-23 01:36:30"
+    },
+    {
+        "image": "Screenshot 2025-03-18 210757.png",
+        "result": "Not Tea Leaf",
+        "date": "2025-03-23 01:35:29"
+    },
+    {
+        "image": "Screenshot 2025-03-19 140104.png",
+        "result": "Not Tea Leaf",
+        "date": "2025-03-23 01:35:08"
+    },
+    {
+        "image": "Screenshot 2025-03-18 211010.png",
+        "result": "Not Tea Leaf",
+        "date": "2025-03-23 01:34:54"
+    },
+    {
+        "image": "Screenshot 2025-03-20 212857.png",
+        "result": "Good Tea Leaf",
+        "date": "2025-03-23 01:34:40"
+    },
+    {
+        "image": "leaf1.jpg",
+        "result": "Not Tea Leaf",
+        "date": "2025-03-23 01:34:01"
+    },
+    {
+        "image": "Leaf 8.jpg",
+        "result": "Not Tea Leaf",
+        "date": "2025-03-23 01:30:23"
+    },
+    {
+        "image": "leaf6.jpg",
+        "result": "Not Tea Leaf",
+        "date": "2025-03-23 01:30:02"
+    },
+    {
+        "image": "Leaf 8.jpg",
+        "result": "Not Tea Leaf",
+        "date": "2025-03-23 01:29:47"
+    },
+    {
+        "image": "leaf9.jpg",
+        "result": "Not Tea Leaf",
+        "date": "2025-03-23 01:29:26"
+    },
+    {
+        "image": "\u2014Pngtree\u2014jackfruit leaf png_6397777.png",
+        "result": "Not Tea Leaf",
+        "date": "2025-03-23 01:29:04"
+    },
+    {
+        "image": "leaf4.webp",
+        "result": "Bad Tea Leaf",
+        "date": "2025-03-23 01:28:56"
+    },
+    {
+        "image": "css.jpg",
+        "result": "Good Tea Leaf",
+        "date": "2025-03-23 01:28:48"
+    },
+    {
+        "image": "istockphoto-2099378133-612x612.jpg",
+        "result": "Bad Tea Leaf",
+        "date": "2025-03-23 01:28:37"
+    },
+    {
+        "image": "sadikka-nutmeg-green-leaf-isolated-260nw-2399277853.webp",
+        "result": "Not Tea Leaf",
+        "date": "2025-03-23 01:28:27"
+    },
+    {
+        "image": "leaf2.jpg",
+        "result": "Bad Tea Leaf",
+        "date": "2025-03-23 01:28:17"
+    },
+    {
+        "image": "green-background-rose-leaf-260nw-139267790.webp",
+        "result": "Not Tea Leaf",
+        "date": "2025-03-23 01:28:04"
+    },
+    {
+        "image": "ban3.webp",
+        "result": "Not Tea Leaf",
+        "date": "2025-03-23 01:27:56"
+    },
+    {
+        "image": "badtea4.jpg",
+        "result": "Bad Tea Leaf",
+        "date": "2025-03-23 01:27:47"
+    },
+    {
+        "image": "mango1.webp",
+        "result": "Not Tea Leaf",
+        "date": "2025-03-23 01:27:31"
+    },
+    {
+        "image": "ban1.jpg",
+        "result": "Not Tea Leaf",
+        "date": "2025-03-23 01:27:25"
+    },
+    {
+        "image": "badtea1.jpg",
+        "result": "Bad Tea Leaf",
+        "date": "2025-03-23 01:27:17"
+    },
+    {
+        "image": "badtea5.jpg",
+        "result": "Bad Tea Leaf",
+        "date": "2025-03-23 01:27:11"
+    },
+    {
+        "image": "IMG20230816185151.jpg",
+        "result": "Good Tea Leaf",
+        "date": "2025-03-23 01:27:03"
+    },
+    {
+        "image": "image_0_2268_jpg.rf.8d5bcbe1ce2837bc389be2f31bfc9952.jpg",
+        "result": "Good Tea Leaf",
+        "date": "2025-03-23 01:26:49"
+    },
+    {
+        "image": "IMG20230816181632.jpg",
+        "result": "Bad Tea Leaf",
+        "date": "2025-03-23 01:26:42"
+    },
+    {
+        "image": "IMG20230816181601.jpg",
+        "result": "Not Tea Leaf",
+        "date": "2025-03-23 01:26:32"
+    },
+    {
+        "image": "20211231_174942.jpg",
+        "result": "Good Tea Leaf",
+        "date": "2025-03-23 01:26:15"
+    },
+    {
+        "image": "dr_33_2987.jpg",
+        "result": "Good Tea Leaf",
+        "date": "2025-03-22 13:42:33"
+    },
+    {
+        "image": "0001_0011.JPG",
+        "result": "Not Tea Leaf",
+        "date": "2025-03-22 13:14:37"
+    },
+    {
+        "image": "0001_0017.JPG",
+        "result": "Not Tea Leaf",
+        "date": "2025-03-22 12:28:50"
+    },
+    {
+        "image": "algal_leaf_in_tea74.jpg",
+        "result": "Bad Tea Leaf",
+        "date": "2025-03-22 12:28:40"
+    },
+    {
+        "image": "20220101_091440_jpg.rf.3da62de3e3d59cea04ab67ce77891b70.jpg",
+        "result": "Good Tea Leaf",
+        "date": "2025-03-22 12:28:27"
+    },
+    {
+        "image": "20220101_091440_jpg.rf.3da62de3e3d59cea04ab67ce77891b70.jpg",
+        "result": "Good Tea Leaf",
+        "date": "2025-03-22 12:22:49"
+    },
+    {
+        "image": "20220101_091440_jpg.rf.3da62de3e3d59cea04ab67ce77891b70.jpg",
+        "result": "Good Tea Leaf",
+        "date": "2025-03-22 12:19:43"
+    },
+    {
+        "image": "20220101_091440_jpg.rf.3da62de3e3d59cea04ab67ce77891b70.jpg",
+        "result": "Good Tea Leaf",
+        "date": "2025-03-22 12:12:46"
+    },
+    {
+        "image": "algal_leaf_in_tea74.jpg",
+        "result": "Bad Tea Leaf",
+        "date": "2025-03-22 12:12:39"
+    },
+    {
+        "image": "algal_leaf_in_tea74.jpg",
+        "result": "Bad Tea Leaf",
+        "date": "2025-03-22 12:12:39"
+    },
+    {
+        "image": "algal_leaf_in_tea74.jpg",
+        "result": "Bad Tea Leaf",
+        "date": "2025-03-22 12:12:39"
+    },
+    {
+        "image": "algal_leaf_in_tea74.jpg",
+        "result": "Bad Tea Leaf",
+        "date": "2025-03-22 12:12:38"
+    },
+    {
+        "image": "algal_leaf_in_tea74.jpg",
+        "result": "Bad Tea Leaf",
+        "date": "2025-03-22 12:12:38"
+    },
+    {
+        "image": "algal_leaf_in_tea74.jpg",
+        "result": "Bad Tea Leaf",
+        "date": "2025-03-22 12:12:37"
+    },
+    {
+        "image": "algal_leaf_in_tea74.jpg",
+        "result": "Bad Tea Leaf",
+        "date": "2025-03-22 12:12:37"
+    },
+    {
+        "image": "algal_leaf_in_tea74.jpg",
+        "result": "Bad Tea Leaf",
+        "date": "2025-03-22 12:12:36"
+    },
+    {
+        "image": "algal_leaf_in_tea74.jpg",
+        "result": "Bad Tea Leaf",
+        "date": "2025-03-22 12:12:36"
+    },
+    {
+        "image": "algal_leaf_in_tea74.jpg",
+        "result": "Bad Tea Leaf",
+        "date": "2025-03-22 12:12:34"
+    },
+    {
+        "image": "0001_0011.JPG",
+        "result": "Not Tea Leaf",
+        "date": "2025-03-22 12:12:24"
+    },
+    {
+        "image": "20220101_091440_jpg.rf.3da62de3e3d59cea04ab67ce77891b70.jpg",
+        "result": "Good Tea Leaf",
+        "date": "2025-03-22 11:23:29"
+    },
+    {
+        "image": "20220101_091440_jpg.rf.3da62de3e3d59cea04ab67ce77891b70.jpg",
+        "result": "Good Tea Leaf",
+        "date": "2025-03-22 11:22:16"
+    },
+    {
+        "image": "0001_0011.JPG",
+        "result": "Not Tea Leaf",
+        "date": "2025-03-22 11:20:56"
+    },
+    {
+        "image": "0001_0011.JPG",
+        "result": "Not Tea Leaf",
+        "date": "2025-03-22 11:17:02"
+    },
+    {
+        "image": "0001_0014.JPG",
+        "result": "Not Tea Leaf",
+        "date": "2025-03-22 11:12:53"
+    },
+    {
+        "image": "0001_0011.JPG",
+        "result": "Not Tea Leaf",
+        "date": "2025-03-22 11:12:45"
+    },
+    {
+        "image": "sadikka-nutmeg-green-leaf-isolated-260nw-2399277853.webp",
+        "result": "Not Tea Leaf",
+        "date": "2025-03-22 11:12:22"
+    },
+    {
+        "image": "tea3.webp",
+        "result": "Bad Tea Leaf",
+        "date": "2025-03-22 11:11:53"
+    },
+    {
+        "image": "badtea1.jpg",
+        "result": "Bad Tea Leaf",
+        "date": "2025-03-22 11:11:39"
+    },
+    {
+        "image": "an_artistic_representation_of_a_bad_tea_leaf_showing_dark_black_spots_and_signs_of_damage_the_leaf__n54xgl8yjihvmjx30mxb_0.png",
+        "result": "Bad Tea Leaf",
+        "date": "2025-03-21 15:49:07"
+    },
+    {
+        "image": "css.jpg",
+        "result": "Bad Tea Leaf",
+        "date": "2025-03-21 15:48:44"
+    },
+    {
+        "image": "sadikka-nutmeg-green-leaf-isolated-260nw-2399277853.webp",
+        "result": "Not Tea Leaf",
+        "date": "2025-03-21 15:48:21"
+    },
+    {
+        "image": "tea3.webp",
+        "result": "Bad Tea Leaf",
+        "date": "2025-03-21 15:48:12"
+    },
+    {
+        "image": "leaf7.jpg",
+        "result": "Bad Tea Leaf",
+        "date": "2025-03-21 13:11:40"
+    },
+    {
+        "image": "leaf.png",
+        "result": "Good Tea Leaf",
+        "date": "2025-03-21 13:10:24"
+    },
+    {
+        "image": "IMG_20220503_144322.jpg",
+        "result": "Bad Tea Leaf",
+        "date": "2025-03-20 22:14:42"
+    },
+    {
+        "image": "algal_leaf_in_tea159.jpg",
+        "result": "Bad Tea Leaf",
+        "date": "2025-03-20 22:14:30"
+    },
+    {
+        "image": "0004_0060.JPG",
+        "result": "Not Tea Leaf",
+        "date": "2025-03-20 22:14:17"
+    },
+    {
+        "image": "0001_0012.JPG",
+        "result": "Not Tea Leaf",
+        "date": "2025-03-20 22:14:07"
+    },
+    {
+        "image": "20220101_092648_jpg.rf.ece04a763d6727a9d9a622dfb30d4444.jpg",
+        "result": "Good Tea Leaf",
+        "date": "2025-03-20 22:13:55"
+    },
+    {
+        "image": "20220101_092559_jpg.rf.aa9d4b7fc80b4351e3bee148d6dbb05d.jpg",
+        "result": "Good Tea Leaf",
+        "date": "2025-03-20 22:13:47"
+    },
+    {
+        "image": "20220101_091910_jpg.rf.3fdb7f2daba86700d45790f77c39e180.jpg",
+        "result": "Good Tea Leaf",
+        "date": "2025-03-20 22:13:40"
+    },
+    {
+        "image": "20220101_091440_jpg.rf.3da62de3e3d59cea04ab67ce77891b70.jpg",
+        "result": "Good Tea Leaf",
+        "date": "2025-03-20 21:16:16"
+    },
+    {
+        "image": "leaf2.jpg",
+        "result": "Bad Tea Leaf",
+        "date": "2025-03-20 21:15:55"
+    },
+    {
+        "image": "leaf.png",
+        "result": "Not Tea Leaf",
+        "date": "2025-03-20 21:15:29"
+    },
+    {
+        "image": "mango1.webp",
+        "result": "Not Tea Leaf",
+        "date": "2025-03-20 21:06:30"
+    },
+    {
+        "image": "badtea5.jpg",
+        "result": "Bad Tea Leaf",
+        "date": "2025-03-20 21:04:27"
+    }
+]

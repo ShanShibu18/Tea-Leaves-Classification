@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Information</title>
+  <link rel="icon" href="tea.png" type="image/png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f3fdf4;
+    }
+    .timeline {
+      position: relative;
+      max-width: 900px;
+      margin: auto;
+      padding: 40px 0;
+    }
+    .timeline::after {
+      content: '';
+      position: absolute;
+      width: 6px;
+      background-color: #4CAF50;
+      top: 0;
+      bottom: 0;
+      left: 50%;
+      margin-left: -3px;
+    }
+    .timeline-box {
+      padding: 20px;
+      position: relative;
+      background-color: inherit;
+      width: 50%;
+    }
+    .timeline-box.left { left: 0; }
+    .timeline-box.right { left: 50%; }
+    .timeline-box::after {
+      content: " ";
+      position: absolute;
+      width: 25px;
+      height: 25px;
+      right: -13px;
+      background-color: white;
+      border: 4px solid #4CAF50;
+      top: 15px;
+      border-radius: 50%;
+      z-index: 1;
+    }
+    .timeline-box.right::after { left: -13px; }
+  </style>
+</head>
+<body>
+<!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="random2.html">🍃 Smart Tea Leaf Classifier</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="random2.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">Info</a></li>
+                    <li class="nav-item"><a class="nav-link" href="mail.html">Feedback</a></li>
+                    <li class="nav-item"><a class="nav-link" href="sample.html">Analyze</a></li>
+                    <li class="nav-item"><a class="nav-link" href="leaf.html">Reports</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link d-flex align-items-center" href="index.html">
+                            Log Out
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-right ms-1" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M10 12.5a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v2a.5.5 0 0 0 1 0v-2A1.5 1.5 0 0 0 9.5 2h-8A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-2a.5.5 0 0 0-1 0z"/>
+                                <path fill-rule="evenodd" d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708z"/>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<br><br>
+
+<!-- Timeline Section -->
+<div class="container my-5">
+  <h2 class="text-center mb-4">🍃 Tea Leaf Journey Timeline</h2>
+  <div class="timeline">
+<div class="timeline-box left">
+  <h5>🌱 Growing</h5>
+  <p>Tea leaves grow on tea plants, usually in cool, rainy places on hills.</p>
+</div>
+
+<div class="timeline-box right">
+  <h5>🤏 Plucking</h5>
+  <p>Workers gently pick the top two leaves and a small bud from the plant.</p>
+</div>
+
+<div class="timeline-box left">
+  <h5>🌀 Withering</h5>
+  <p>The leaves are laid out to dry a little and become soft.</p>
+</div>
+
+<div class="timeline-box right">
+  <h5>🍂 Rolling</h5>
+  <p>The leaves are rolled to bring out their taste and smell.</p>
+</div>
+
+<div class="timeline-box left">
+  <h5>♨️ Drying</h5>
+  <p>The leaves are dried to keep their flavor and make them ready for tea.</p>
+</div>
+
+  </div>
+</div>
+
+<!-- Quiz Section -->
+<div class="container my-5">
+  <h2 class="text-center">🧠 Tea Knowledge Quiz</h2>
+  <div id="quizBox" class="text-center">
+    <p id="question">Loading...</p>
+    <div id="options" class="mb-3"></div>
+    <div class="mt-3">
+      <button class="btn btn-success" onclick="submitAnswer()">Submit</button>
+      <button class="btn btn-secondary" onclick="nextQuestion()">Next</button>
+    </div>
+    <p id="feedback" class="mt-3"></p>
+  </div>
+</div>
+
+<!-- India Tea Production Chart -->
+<div class="container my-5">
+  <h2 class="text-center">Top 5 Tea Production States in India (%)</h2>
+  <canvas id="indiaChart"></canvas>
+</div>
+
+<!-- Global Tea Production Chart -->
+<div class="container my-5">
+  <h2 class="text-center">🌍 Top 5 Global Tea Production Countries (%)</h2>
+  <canvas id="globalChart"></canvas>
+</div>
+
+
+
+<script>
+  const questions = [
+    {
+      q: "Which state in India produces the most tea?",
+      options: ["Assam", "Kerala", "Sikkim", "Tamil Nadu"],
+      a: "Assam"
+    },
+    {
+      q: "Which country is the largest producer of tea in the world?",
+      options: ["India", "Sri Lanka", "China", "Kenya"],
+      a: "China"
+    },
+    {
+      q: "What is the main chemical in tea responsible for alertness?",
+      options: ["Caffeine", "Theanine", "Chlorophyll", "Vitamin C"],
+      a: "Caffeine"
+    },
+    {
+      q: "Which Indian hill station is famous for tea?",
+      options: ["Ooty", "Munnar", "Darjeeling", "Shimla"],
+      a: "Darjeeling"
+    },
+    {
+      q: "Which country invented bubble tea?",
+      options: ["Japan", "Korea", "China", "Taiwan"],
+      a: "Taiwan"
+    }
+  ];
+
+  let currentQuestion = 0;
+
+  function loadQuestion() {
+    const q = questions[currentQuestion];
+    document.getElementById("question").textContent = q.q;
+
+    const optionsDiv = document.getElementById("options");
+    optionsDiv.innerHTML = "";
+    q.options.forEach(option => {
+      const btn = document.createElement("button");
+      btn.className = "btn btn-outline-primary m-1";
+      btn.textContent = option;
+      btn.onclick = () => selectOption(option);
+      optionsDiv.appendChild(btn);
+    });
+
+    document.getElementById("feedback").textContent = "";
+  }
+
+  let selectedAnswer = "";
+
+  function selectOption(option) {
+    selectedAnswer = option;
+    document.querySelectorAll("#options button").forEach(btn => {
+      btn.classList.remove("btn-primary");
+      btn.classList.add("btn-outline-primary");
+      if (btn.textContent === option) {
+        btn.classList.remove("btn-outline-primary");
+        btn.classList.add("btn-primary");
+      }
+    });
+  }
+
+  function submitAnswer() {
+    const correctAnswer = questions[currentQuestion].a;
+    const feedback = document.getElementById("feedback");
+    if (selectedAnswer === "") {
+      feedback.textContent = "⚠️ Please select an option!";
+      feedback.style.color = "orange";
+    } else if (selectedAnswer === correctAnswer) {
+      feedback.textContent = "✅ Correct!";
+      feedback.style.color = "green";
+    } else {
+      feedback.textContent = `❌ Incorrect. Correct answer: ${correctAnswer}`;
+      feedback.style.color = "red";
+    }
+  }
+
+  function nextQuestion() {
+    currentQuestion = (currentQuestion + 1) % questions.length;
+    selectedAnswer = "";
+    loadQuestion();
+  }
+
+  // Load first question
+  loadQuestion();
+
+
+  // India Tea Production (percentages)
+  const indiaCtx = document.getElementById('indiaChart').getContext('2d');
+  new Chart(indiaCtx, {
+    type: 'bar',
+    data: {
+      labels: ['Assam', 'West Bengal', 'Tamil Nadu', 'Kerala', 'Karnataka'],
+      datasets: [{
+        label: 'Production (%)',
+        data: [52, 30, 12, 4, 2],
+        backgroundColor: [
+          '#2ecc71',  // Assam - green
+          '#3498db',  // West Bengal - blue
+          '#f1c40f',  // Tamil Nadu - yellow
+          '#e67e22',  // Kerala - orange
+          '#9b59b6'   // Karnataka - purple
+        ],
+        borderRadius: 6
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        title: {
+          display: true,
+          text: 'Tea Production Share by Indian States',
+          font: { size: 18 }
+        },
+        legend: { display: false }
+      },
+      scales: {
+        y: {
+          beginAtZero: true,
+          max: 100,
+          title: {
+            display: true,
+            text: 'Percentage (%)'
+          }
+        }
+      }
+    }
+  });
+
+  // Global Tea Production (percentages)
+  const globalCtx = document.getElementById('globalChart').getContext('2d');
+  new Chart(globalCtx, {
+    type: 'bar',
+    data: {
+      labels: ['China', 'India', 'Kenya', 'Sri Lanka', 'Vietnam'],
+      datasets: [{
+        label: 'Production (%)',
+        data: [38, 23, 9, 7, 5],
+        backgroundColor: [
+          '#1abc9c',  // China - teal
+          '#e74c3c',  // India - red
+          '#8e44ad',  // Kenya - purple
+          '#f39c12',  // Sri Lanka - gold
+          '#2980b9'   // Vietnam - blue
+        ],
+        borderRadius: 6
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        title: {
+          display: true,
+          text: 'Tea Production Share by Country',
+          font: { size: 18 }
+        },
+        legend: { display: false }
+      },
+      scales: {
+        y: {
+          beginAtZero: true,
+          max: 100,
+          title: {
+            display: true,
+            text: 'Percentage (%)'
+          }
+        }
+      }
+    }
+  });
+
+
+</script>
+<!-- Bootstrap JS (with Popper) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Tea Leaf Classifier</title>
+ <link rel="icon" href="tea.png" type="image/png">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: url('wallpaper.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+        .navbar {
+            background-color: black;
+            padding: 8px 0;
+        }
+        .navbar-brand {
+            display: flex;
+            align-items: center;
+            color: white;
+            font-size: 1.3rem;
+            font-weight: bold;
+        }
+        .navbar-brand img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-right: 8px;
+        }
+        .navbar-nav .nav-link {
+            color: white !important;
+            font-size: 1rem;
+            padding: 6px 12px;
+        }
+        .navbar-nav .nav-link:hover {
+            color: limegreen !important;
+        }
+        .intro {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 50px 20px;
+            border-radius: 10px;
+            margin: 30px auto;
+            text-align: center;
+            max-width: 900px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .steps, .tea-info {
+            background: white;
+            padding: 50px 20px;
+            border-radius: 10px;
+            margin: 20px auto;
+            text-align: center;
+            max-width: 800px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .steps h2, .tea-info h2 {
+            color: darkgreen;
+            font-weight: bold;
+        }
+        .step {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .step img {
+            width: 80px;
+            margin-right: 15px;
+        }
+        .analyze {
+            text-align: center;
+            background: rgba(0, 0, 0, 0.6);
+            color: white;
+            padding: 50px;
+            border-radius: 10px;
+            margin: 20px auto;
+            max-width: 600px;
+        }
+        .btn-custom {
+            background-color: limegreen;
+            color: white;
+            font-size: 1.2rem;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+        .btn-custom:hover {
+            background-color: darkgreen;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="random2.html">🍃 Smart Tea Leaf Classifier</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="random2.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">Info</a></li>
+                    <li class="nav-item"><a class="nav-link" href="mail.html">Feedback</a></li>
+                    <li class="nav-item"><a class="nav-link" href="sample.html">Analyze</a></li>
+                    <li class="nav-item"><a class="nav-link" href="leaf.html">Reports</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link d-flex align-items-center" href="indexx.html">
+                            Log Out
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-right ms-1" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M10 12.5a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v2a.5.5 0 0 0 1 0v-2A1.5 1.5 0 0 0 9.5 2h-8A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-2a.5.5 0 0 0-1 0z"/>
+                                <path fill-rule="evenodd" d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708z"/>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="container">
+        <div class="intro">
+            <h2>Discover the Best Tea Leaves for Perfect Brewing!</h2>
+            <p>Ensure top-quality tea by analyzing its leaves for freshness and grade. Whether you're a tea producer or a tea lover, get instant insights into the quality of your tea leaves and make better choices for your brew.</p>
+        </div>
+        
+        <div class="steps">
+            <h2>How It Works?</h2>
+            <div class="step">
+                <img src="upload.png" alt="Upload">
+                <p><strong>Step 1:</strong> Upload a tea leaf image for analysis.</p>
+            </div>
+            <div class="step">
+                <img src="process.png" alt="Process">
+                <p><strong>Step 2:</strong> The system examines the leaf properties and characteristics.</p>
+            </div>
+            <div class="step">
+                <img src="result.png" alt="Result">
+                <p><strong>Step 3:</strong> Get instant feedback on whether the leaf is Fresh or bad.</p>
+            </div>
+        </div>
+
+        <div class="tea-info">
+            <h2>Good vs. Bad Tea Leaves</h2>
+            <div class="card p-3">
+                <h4>✅ How to Make Good Tea Leaves</h4>
+                <ul class="text-start">
+                    <li>Use fresh, well-grown tea plants</li>
+                    <li>Proper drying and oxidation process</li>
+                    <li>Maintain the right moisture levels</li>
+                    <li>Store in a cool, dry place</li>
+                </ul>
+                <h4>⚠️ Reasons for Bad Tea Leaves</h4>
+                <ul class="text-start">
+                    <li>Overexposure to sunlight</li>
+                    <li>Improper fermentation or drying</li>
+                    <li>Contamination from dust or chemicals</li>
+                    <li>Storing in humid conditions</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="analyze">
+            <h1>Smart Tea Leaf Classifier</h1>
+            <p>Curious whether your tea leaves are fresh or stale? Instantly assess their quality with ease.</p>
+            <a href="sample.html" class="btn btn-custom">Start Analysis</a>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
